@@ -9,9 +9,9 @@ public class TrainAppUC7 {
         System.out.println("Use Case 7: Sort Bogies by Capacity");
 
         List<Bogie> passengerBogies = new ArrayList<>();
-        passengerBogies.add(new Bogie("Sleeper", 72));
-        passengerBogies.add(new Bogie("AC Chair", 56));
-        passengerBogies.add(new Bogie("First Class", 40));
+        passengerBogies.add(new Bogie("BG201", "Sleeper", 72));
+        passengerBogies.add(new Bogie("BG202", "AC Chair", 56));
+        passengerBogies.add(new Bogie("BG203", "First Class", 40));
 
         passengerBogies.sort(Comparator.comparingInt(Bogie::getCapacity));
 

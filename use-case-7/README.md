@@ -27,7 +27,7 @@ This use case demonstrates how passenger bogies can be sorted by seating capacit
 === Train Consist Management App ===
 Use Case 7: Sort Bogies by Capacity
 Passenger bogies sorted by capacity:
-Bogie{bogieName='First Class', capacity=40}
-Bogie{bogieName='AC Chair', capacity=56}
-Bogie{bogieName='Sleeper', capacity=72}
+Bogie{bogieId='BG203', bogieType='First Class', capacity=40}
+Bogie{bogieId='BG202', bogieType='AC Chair', capacity=56}
+Bogie{bogieId='BG201', bogieType='Sleeper', capacity=72}
 ```
